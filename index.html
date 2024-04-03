@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bioinformatics App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Bioinformatics App</h1>
+        <p class="moving-text">All about life science</p>
+        <textarea id="dnaSequence" placeholder="Enter DNA Sequence" rows="4"></textarea>
+        <button onclick="generateAlternative()">Generate Alternative Sequence</button>
+        <button onclick="calculateGCContent()">Calculate GC Content</button>
+        <p class="attribution">Created by Terkuma Saaondo</p>
+        <p id="result"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
